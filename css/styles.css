@@ -1,0 +1,57 @@
+/* Цвет основного текста #212121 */
+/* Цвет вторичного текста #757575 */
+/* Белый #FFFFFF */
+/* Акцент #2196F3 */
+
+/* Вторичный цвет фона #F5F4FA */
+
+/* Палитра цветов */
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --secondary-background-color: #f5f4fa;
+}
+/* Стиллизация логотипа */
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo {
+  color: #000000;
+}
+/* Навигационные ссылки */
+.link {
+  color: var(--primery-text-color);
+}
+.link:hover {
+  color: var(--accent-color);
+}
+.link:focus {
+  color: var(--accent-color);
+}
+.contact {
+  color: var(--title-text-color);
+}
+.contact:hover {
+  color: var(--accent-color);
+}
+.contact:focus {
+  color: var(--accent-color);
+}
+/* Стиллизация Hero */
+.button-hero {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* Нам месте background Будет фоновая картинка */
+.title-hero {
+  color: #ffffff;
+  background-color: var(--title-text-color);
+}
+/* секция-наши преимущества */
+h3.advantage {
+  color: var(--primery-text-color);
+}
+.advantage-comment {
+  color: var(--title-text-color);
+}

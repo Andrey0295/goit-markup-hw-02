@@ -219,3 +219,56 @@ h3.advantage {
 .social:focus {
   color: var(--accent-color);
 }
+/* Стиллизация страницы "Портфолио" */
+
+/* Кнопки портфолио */
+.first-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-button {
+  color: var(--primery-text-color);
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-button:hover {
+  color: var(--accent-color);
+}
+.portfolio-button:focus {
+  color: var(--accent-color);
+}
+/* Стилизация галлереи */
+.portfolio-title {
+  color: var(--primery-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+.portfolio-service {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+}
